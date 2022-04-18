@@ -39,7 +39,7 @@ element.classList.remove.toggle('fondo')
 /* Sacariamos la clase con remove con add agregamos y con toggle: agregamos o quitamos dependiendo de como este*/
 
 
-/* Resolución de un compañero
+/* 
 for(let i=0; i < $p.length; i++){
     if(i + 1) % 2 == 0){
         $p[i].classList.add('destacadoPar');
@@ -59,6 +59,3 @@ $p.forEach((element, index) => {
 /* Ejemplo con innerHTML */
 $h2.innerHTML += `<a href="https://google.com">${userName.trim()}</a>`
 /* aqui la palabra que esta en el h2 sera una a que nos lleve a otro sitio */
-
-/* solo el paso 1, avanzar con los demas 
-paso dos, no es un prompt sino un confirm*/
